@@ -112,7 +112,7 @@ class DetailsViewController: UIViewController, UIImagePickerControllerDelegate, 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
          
         imageView.image = info[.editedImage] as? UIImage
-        kaydetButton.isEnabled = true
+        kaydetButton.isEnabled = true 
         self.dismiss(animated: true, completion: nil)
         
         

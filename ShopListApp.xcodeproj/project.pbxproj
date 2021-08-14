@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA8EB16326BBBAF40008CBE2 /* AlisverisListesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlisverisListesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8EB16326BBBAF40008CBE2 /* ShopListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8EB16626BBBAF40008CBE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8EB16826BBBAF40008CBE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA8EB16A26BBBAF40008CBE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		DA8EB15A26BBBAF40008CBE2 = {
 			isa = PBXGroup;
 			children = (
-				DA8EB16526BBBAF40008CBE2 /* AlisverisListesi */,
+				DA8EB16526BBBAF40008CBE2 /* ShopList */,
 				DA8EB16426BBBAF40008CBE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		DA8EB16426BBBAF40008CBE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA8EB16326BBBAF40008CBE2 /* AlisverisListesi.app */,
+				DA8EB16326BBBAF40008CBE2 /* ShopListApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA8EB16526BBBAF40008CBE2 /* AlisverisListesi */ = {
+		DA8EB16526BBBAF40008CBE2 /* ShopList */ = {
 			isa = PBXGroup;
 			children = (
 				DA8EB16626BBBAF40008CBE2 /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				DA8EB17726BBBAF50008CBE2 /* Info.plist */,
 				DA8EB16F26BBBAF40008CBE2 /* AlisverisListesi.xcdatamodeld */,
 			);
-			path = AlisverisListesi;
+			path = ShopList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA8EB16226BBBAF40008CBE2 /* AlisverisListesi */ = {
+		DA8EB16226BBBAF40008CBE2 /* ShopListApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA8EB17A26BBBAF50008CBE2 /* Build configuration list for PBXNativeTarget "AlisverisListesi" */;
+			buildConfigurationList = DA8EB17A26BBBAF50008CBE2 /* Build configuration list for PBXNativeTarget "ShopListApp" */;
 			buildPhases = (
 				DA8EB15F26BBBAF40008CBE2 /* Sources */,
 				DA8EB16026BBBAF40008CBE2 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = AlisverisListesi;
+			name = ShopListApp;
 			productName = AlisverisListesi;
-			productReference = DA8EB16326BBBAF40008CBE2 /* AlisverisListesi.app */;
+			productReference = DA8EB16326BBBAF40008CBE2 /* ShopListApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA8EB15E26BBBAF40008CBE2 /* Build configuration list for PBXProject "AlisverisListesi" */;
+			buildConfigurationList = DA8EB15E26BBBAF40008CBE2 /* Build configuration list for PBXProject "ShopListApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA8EB16226BBBAF40008CBE2 /* AlisverisListesi */,
+				DA8EB16226BBBAF40008CBE2 /* ShopListApp */,
 			);
 		};
 /* End PBXProject section */
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA8EB15E26BBBAF40008CBE2 /* Build configuration list for PBXProject "AlisverisListesi" */ = {
+		DA8EB15E26BBBAF40008CBE2 /* Build configuration list for PBXProject "ShopListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA8EB17826BBBAF50008CBE2 /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA8EB17A26BBBAF50008CBE2 /* Build configuration list for PBXNativeTarget "AlisverisListesi" */ = {
+		DA8EB17A26BBBAF50008CBE2 /* Build configuration list for PBXNativeTarget "ShopListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA8EB17B26BBBAF50008CBE2 /* Debug */,
